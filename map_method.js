@@ -7,3 +7,17 @@ var result = numbers.map((num) => {
 
 console.log(result);
 console.log(numbers);
+
+//example
+var object = [
+    {name: 'yeasin', age:24},
+    {name:'shuvo', age:26}
+]
+
+var result = object.map((item) => {
+   if(item.age > 22){
+       return item.name;
+   }
+});
+
+console.log(result);

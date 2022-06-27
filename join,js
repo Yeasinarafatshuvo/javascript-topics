@@ -1,0 +1,4 @@
+const firstList = ['yeasin','arafat','shuvo','sazzad'];
+let index = firstList.join();
+let newvalue = firstList.join(' ');
+console.log(newvalue);
